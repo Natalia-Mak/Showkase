@@ -78,10 +78,6 @@ internal fun ShowkaseComponentDetailScreen(
                             }
                             BasicComponentCard(metadata)
                         }
-                        ShowkaseComponentCardType.FONT_SCALE -> FontScaledComponentCard(metadata)
-                        ShowkaseComponentCardType.DISPLAY_SCALED -> DisplayScaledComponentCard(
-                            metadata
-                        )
                         ShowkaseComponentCardType.RTL -> RTLComponentCard(metadata)
                         ShowkaseComponentCardType.DARK_MODE -> DarkModeComponentCard(metadata)
                     }
